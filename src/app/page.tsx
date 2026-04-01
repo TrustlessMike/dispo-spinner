@@ -16,20 +16,20 @@ export default function Home() {
       <main className="relative mx-auto flex min-h-full max-w-lg flex-col items-center justify-center gap-10 px-6 py-16">
         <header className="text-center">
           <p className="mb-2 text-xs font-medium uppercase tracking-[0.35em] text-zinc-500">
-            Dispo
+            Dispensary
           </p>
           <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-            Spinner
+            Menu spinner
           </h1>
           <p className="mt-3 max-w-sm text-sm leading-relaxed text-zinc-400">
-            Tap spin. Let the wheel pick the move.
+            Spin for tonight&apos;s rotation — flower, hash, or sweets.
           </p>
         </header>
 
         <DispoWheel />
 
         <p className="text-center text-xs text-zinc-600">
-          Deploy on Vercel from GitHub — push this repo and import the project.
+          21+ where required. Consume responsibly.
         </p>
       </main>
     </div>

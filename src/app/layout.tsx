@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dispo Spinner",
-  description: "Wheel spinner — ship it on Vercel.",
+  title: "Dispensary menu spinner",
+  description: "Spin the wheel — sativa, indica, rosin, edibles, and more.",
 };
 
 export default function RootLayout({

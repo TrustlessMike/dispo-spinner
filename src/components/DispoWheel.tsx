@@ -3,12 +3,14 @@
 import { useCallback, useMemo, useRef, useState } from "react";
 
 const DEFAULT_SEGMENTS = [
-  "Double",
-  "Pass",
-  "Flip",
-  "Hold",
-  "Rally",
-  "Cash",
+  "Sativa",
+  "Indica",
+  "Hybrid",
+  "Preroll",
+  "Rosin",
+  "Edible",
+  "Cart",
+  "Exotics",
 ];
 
 type Props = {
@@ -114,7 +116,7 @@ export function DispoWheel({ segments = DEFAULT_SEGMENTS }: Props) {
             viewBox="-110 -110 220 220"
             className="h-full w-full rounded-full"
             role="img"
-            aria-label="Dispo spinner wheel"
+            aria-label="Dispensary menu spinner wheel"
           >
             <defs>
               <filter id="innerShadow" x="-50%" y="-50%" width="200%" height="200%">
