@@ -60,7 +60,6 @@ export function DispoWheel({ segments = DEFAULT_SEGMENTS }: Props) {
   const [spinning, setSpinning] = useState(false);
   const [winner, setWinner] = useState<string | null>(null);
   const rotationRef = useRef(0);
-  rotationRef.current = rotation;
 
   const n = segments.length;
   const slice = 360 / n;
@@ -84,6 +83,7 @@ export function DispoWheel({ segments = DEFAULT_SEGMENTS }: Props) {
     if (delta < 360 * 4) delta += 360 * Math.ceil((360 * 4 - delta) / 360);
 
     const next = rotationRef.current + delta;
+    rotationRef.current = next;
     setRotation(next);
 
     window.setTimeout(() => {
