@@ -23,5 +23,8 @@
     "tailwindcss": "^4",
     "typescript": "^5"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "overrides": {
+    "sharp": "^0.35.5"
+  }
 }
